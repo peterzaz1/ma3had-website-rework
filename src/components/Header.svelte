@@ -13,7 +13,7 @@
 	}
 </script>
 
-<header class="py-3 bg-white">
+<header class="py-3 bg-white shadow-2xl">
 	<nav class="flex justify-between w-[92%] m-auto items-center">
 		<div>
 			<a href="/">
@@ -27,7 +27,7 @@
 			<ul class="flex flex-col items-center md:gap-[4vw] md:flex-row gap-10 py-4">
 				<a href="/" class="text-2xl hover:text-gray-400">نبذه عنا</a>
 				<a href="/" class="text-2xl hover:text-gray-400">الخدمات</a>
-				<a href="/students" class="text-2xl hover:text-gray-400">صفحة الطالب</a>
+				<a href="/sign-in" class="text-2xl hover:text-gray-400">صفحة الطالب</a>
 				<a href="/" class="text-2xl hover:text-gray-400">الرئيسيه</a>
 			</ul>
 		</div>
