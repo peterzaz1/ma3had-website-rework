@@ -21,7 +21,10 @@
 				<p class="pt-3">مصر، الجيزة</p>
 			</div>
 			<div class="flex gap-7">
-				<Button>صفحة الطالب</Button>
+				<a href="/sign-in">
+					<Button>صفحة الطالب</Button>
+				</a>
+
 				<Button>الاتصال بنا</Button>
 			</div>
 		</div>
