@@ -6,7 +6,7 @@
 <section
 	class="bg-neutral-800 shadow-lg flex py-24 flex-col items-center md:flex-row md:px-16 md:justify-between lg:px-28"
 >
-	<img src={uni} alt="uni" class="m-auto md:m-0 w-44 md:w-56" />
+	<img src={uni} alt="uni" class=" md:m-0 w-44 md:w-56" />
 	<div class=" text-white">
 		<h1 class="text-4xl text-center mt-6 md:mt-0 md:text-right">المعهد العالي للدراسات النوعية</h1>
 		<div class="flex flex-col justify-center items-center gap-4 md:items-end">
