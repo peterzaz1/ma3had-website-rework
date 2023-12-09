@@ -13,7 +13,7 @@
 	}
 </script>
 
-<header class="py-3 bg-white shadow-2xl">
+<header class="py-2 bg-white shadow-2xl">
 	<nav class="flex justify-between w-[92%] m-auto items-center">
 		<div>
 			<a href="/">
