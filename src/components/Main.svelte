@@ -13,14 +13,14 @@
 		'يقوم المعهد بإعداد خريجين متميزين  في المجالات التجارية والسياحية و اللغات للمنافسة في سوق العمل المحلي والاقليمي  والمساهمة في خدمة المجتمع وبما يتفق مع رسالة وزارة التعليم العالي. ';
 </script>
 
-<main>
-	<ParagraphImage {title} {paragraph} {img} dir={'rtl'} bg={'bg-stone-400'} />
+<main class="">
+	<ParagraphImage {title} {paragraph} {img} dir={'rtl'} bg={'bg-[#d5bdaf]'} />
 	<ParagraphImage
 		title={title2}
 		paragraph={paragraph2}
 		img={img2}
 		dir={'ltr'}
-		bg={'bg-stone-300'}
+		bg={'bg-[#e3d5ca]'}
 	/>
-	<ParagraphImage paragraph={paragraph3} img={img3} dir={'rtl'} bg={'bg-stone-400'} />
+	<ParagraphImage paragraph={paragraph3} img={img3} dir={'rtl'} bg={'bg-[#d5bdaf]'} />
 </main>

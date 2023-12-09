@@ -13,7 +13,7 @@
 	}
 </script>
 
-<header class="py-2 bg-white shadow-2xl">
+<header class="py-2 bg-[#edede9] shadow-2xl">
 	<nav class="flex justify-between w-[92%] m-auto items-center">
 		<div>
 			<a href="/">
@@ -22,7 +22,7 @@
 		</div>
 		<div
 			bind:this={navList}
-			class="absolute bg-white w-full left-0 top-[-100%] md:static md:h-fit md:w-auto"
+			class="absolute w-full bg-[#edede9] left-0 top-[-100%] md:static md:h-fit md:w-auto"
 		>
 			<ul class="flex flex-col items-center md:gap-[4vw] md:flex-row gap-10 py-4">
 				<a href="/" class="text-2xl hover:text-gray-400">نبذه عنا</a>

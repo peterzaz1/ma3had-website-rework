@@ -6,6 +6,6 @@ body {
 	font-family: 'Noto Sans Arabic', sans-serif;
 	font-family: 'Rubik', sans-serif;
 	text-align: right;
-	background-color: #eeeeee;
-	@apply bg-neutral-300;
+
+	@apply bg-[#e3d5ca];
 }

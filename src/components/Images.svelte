@@ -7,7 +7,7 @@
 	import pic6 from './../assets/pic6.jpg';
 </script>
 
-<section class=" mb-6 flex flex-col justify-center items-center">
+<section class=" pb-20 flex flex-col justify-center items-center">
 	<div class="my-5 mb-10 border-b-2 py-4 border-neutral-500">
 		<h2 class="text-4xl">صور المعهد</h2>
 	</div>

@@ -1,10 +1,12 @@
 <script>
 	import uni from './../assets/logo1.png';
+	import img from './../assets/pic2.jpg';
 	import Button from './Button.svelte';
 </script>
 
+<!-- bg-gradient-to-b from-neutral-800 to-[#353A47] -->
 <section
-	class="bg-neutral-800 shadow-lg flex py-24 flex-col items-center md:flex-row md:px-16 md:justify-between lg:px-28"
+	class=" bg-neutral-800 shadow-lg z-0 flex py-24 flex-col items-center md:flex-row md:px-16 md:justify-between lg:px-28"
 >
 	<img src={uni} alt="uni" class=" md:m-0 w-44 md:w-56" />
 	<div class=" text-white">
@@ -24,11 +26,8 @@
 				<a href="/sign-in">
 					<Button>صفحة الطالب</Button>
 				</a>
-
 				<Button>الاتصال بنا</Button>
 			</div>
 		</div>
 	</div>
 </section>
-
-<!-- #BF9270 -->
