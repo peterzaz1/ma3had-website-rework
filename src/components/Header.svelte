@@ -13,7 +13,7 @@
 	}
 </script>
 
-<header class="py-2 bg-[#edede9] shadow-2xl">
+<header class="py-2 bg-[#d29d59] shadow-2xl">
 	<nav class="flex justify-between w-[92%] m-auto items-center">
 		<div>
 			<a href="/">
@@ -22,9 +22,9 @@
 		</div>
 		<div
 			bind:this={navList}
-			class="absolute w-full bg-[#edede9] left-0 top-[-100%] md:static md:h-fit md:w-auto"
+			class="absolute w-full bg-[#d29d59] left-0 top-[-100%] md:static md:h-fit md:w-auto"
 		>
-			<ul class="flex flex-col items-center md:gap-[4vw] md:flex-row gap-10 py-4">
+			<ul class="flex flex-col items-center text-white md:gap-[4vw] md:flex-row gap-10 py-4">
 				<a href="/" class="text-2xl hover:text-gray-400">نبذه عنا</a>
 				<a href="/" class="text-2xl hover:text-gray-400">الخدمات</a>
 				<a href="/sign-in" class="text-2xl hover:text-gray-400">صفحة الطالب</a>
@@ -32,7 +32,7 @@
 			</ul>
 		</div>
 		<div class="flex items-center gap-4">
-			<button class="text-2xl px-2 py-2 bg-[#687EFF] text-white rounded-md hover:bg-indigo-500"
+			<button class="text-2xl px-2 py-2 bg-[#cc5e33] text-white rounded-md hover:bg-indigo-500"
 				>الاتصال بنا</button
 			>
 			<button on:click={handleToggle}

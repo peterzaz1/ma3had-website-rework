@@ -6,10 +6,10 @@
 
 <!-- bg-gradient-to-b from-neutral-800 to-[#353A47] -->
 <section
-	class=" bg-neutral-800 shadow-lg z-0 flex py-24 flex-col items-center md:flex-row md:px-16 md:justify-between lg:px-28"
+	class=" bg-[#f1e6ca] shadow-lg z-0 flex py-24 flex-col items-center md:flex-row md:px-16 md:justify-between lg:px-28"
 >
 	<img src={uni} alt="uni" class=" md:m-0 w-44 md:w-56" />
-	<div class=" text-white">
+	<div class=" text-black">
 		<h1 class="text-4xl text-center mt-6 md:mt-0 md:text-right">المعهد العالي للدراسات النوعية</h1>
 		<div class="flex flex-col justify-center items-center gap-4 md:items-end">
 			<div class="flex justify-center items-center md:justify-end">

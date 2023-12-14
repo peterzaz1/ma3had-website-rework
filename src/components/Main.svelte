@@ -14,13 +14,26 @@
 </script>
 
 <main class="">
-	<ParagraphImage {title} {paragraph} {img} dir={'rtl'} bg={'bg-[#d5bdaf]'} />
+	<ParagraphImage
+		{title}
+		{paragraph}
+		{img}
+		dir={'rtl'}
+		bg={'bg-[#38463a]'}
+		textColor={'text-white'}
+	/>
 	<ParagraphImage
 		title={title2}
 		paragraph={paragraph2}
 		img={img2}
 		dir={'ltr'}
-		bg={'bg-[#e3d5ca]'}
+		bg={'bg-[#f1e6ca]'}
 	/>
-	<ParagraphImage paragraph={paragraph3} img={img3} dir={'rtl'} bg={'bg-[#d5bdaf]'} />
+	<ParagraphImage
+		paragraph={paragraph3}
+		img={img3}
+		dir={'rtl'}
+		bg={'bg-[#38463a]'}
+		textColor={'text-white'}
+	/>
 </main>

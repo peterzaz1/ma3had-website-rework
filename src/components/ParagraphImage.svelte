@@ -4,10 +4,11 @@
 	export let img;
 	export let dir;
 	export let bg;
+	export let textColor = 'text-black';
 </script>
 
 <section
-	class={`flex flex-col justify-between ${bg} py-20 px-10 gap-5 border border-black/30 lg:gap-32 lg:px-20 
+	class={`flex flex-col justify-between ${bg} ${textColor} py-20 px-10 gap-5 border border-black/30 lg:gap-32 lg:px-20 
   ${dir === 'ltr' ? 'md:flex-row-reverse' : 'md:flex-row'}
 `}
 >
