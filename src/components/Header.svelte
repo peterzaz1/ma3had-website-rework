@@ -23,7 +23,7 @@
 
 		<div
 			bind:this={navList}
-			class="absolute w-[80%] mx-auto top-[-100%] bg-[#f1e6ca] border-2 border-dashed border-black md:static md:border-0 md:h-fit md:w-auto"
+			class="absolute w-[70%] right-1 top-[-100%] bg-[#f1e6ca] border-2 border-dashed border-black md:static md:border-0 md:h-fit md:w-auto"
 		>
 			<ul class="flex flex-col items-center text-black md:gap-[4vw] md:flex-row gap-10 py-4">
 				<a href="/" class="text-2xl hover:text-gray-400 border-b-2 border-black md:border-0"
