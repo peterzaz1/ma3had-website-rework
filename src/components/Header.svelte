@@ -1,38 +1,47 @@
 <script>
-	import logo from './../assets/logo1.png';
+	import logo from './../assets/logo-fire3.png';
 	import manu from './../assets/manu.png';
 	let navList;
 	function handleToggle() {
 		if (navList.classList.contains('top-[-100%]')) {
 			navList.classList.remove('top-[-100%]');
-			navList.classList.add('top-[10%]');
+			navList.classList.add('top-[9%]');
 		} else {
-			navList.classList.remove('top-[10%]');
+			navList.classList.remove('top-[9%]');
 			navList.classList.add('top-[-100%]');
 		}
 	}
 </script>
 
-<header class="py-2 bg-[#d29d59] shadow-2xl">
+<header class="py-2 bg-[#f1e6ca] shadow-2xl">
 	<nav class="flex justify-between w-[92%] m-auto items-center">
 		<div>
 			<a href="/">
 				<img src={logo} alt="logo" class="w-12" />
 			</a>
 		</div>
+
 		<div
 			bind:this={navList}
-			class="absolute w-full bg-[#d29d59] left-0 top-[-100%] md:static md:h-fit md:w-auto"
+			class="absolute w-[80%] mx-auto top-[-100%] bg-[#f1e6ca] border-2 border-dashed border-black md:static md:border-0 md:h-fit md:w-auto"
 		>
-			<ul class="flex flex-col items-center text-white md:gap-[4vw] md:flex-row gap-10 py-4">
-				<a href="/" class="text-2xl hover:text-gray-400">نبذه عنا</a>
-				<a href="/" class="text-2xl hover:text-gray-400">الخدمات</a>
-				<a href="/sign-in" class="text-2xl hover:text-gray-400">صفحة الطالب</a>
-				<a href="/" class="text-2xl hover:text-gray-400">الرئيسيه</a>
+			<ul class="flex flex-col items-center text-black md:gap-[4vw] md:flex-row gap-10 py-4">
+				<a href="/" class="text-2xl hover:text-gray-400 border-b-2 border-black md:border-0"
+					>نبذه عنا</a
+				>
+				<a href="/" class="text-2xl hover:text-gray-400 border-b-2 border-black md:border-0"
+					>الخدمات</a
+				>
+				<a href="/sign-in" class="text-2xl hover:text-gray-400 border-b-2 border-black md:border-0"
+					>صفحة الطالب</a
+				>
+				<a href="/" class="text-2xl hover:text-gray-400 border-b-2 border-black md:border-0"
+					>الرئيسيه</a
+				>
 			</ul>
 		</div>
 		<div class="flex items-center gap-4">
-			<button class="text-2xl px-2 py-2 bg-[#cc5e33] text-white rounded-md hover:bg-indigo-500"
+			<button class="text-2xl px-2 py-2 bg-[#fb8b24ff] text-white rounded-md hover:bg-[#e36414ff]"
 				>الاتصال بنا</button
 			>
 			<button on:click={handleToggle}
