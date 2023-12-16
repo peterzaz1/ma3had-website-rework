@@ -1,5 +1,5 @@
 <script>
-	import uni from './../assets/logo1.png';
+	import uni from './../assets/logo-fire3.png';
 	import img from './../assets/pic2.jpg';
 	import Button from './Button.svelte';
 </script>
@@ -10,7 +10,9 @@
 >
 	<img src={uni} alt="uni" class=" md:m-0 w-44 md:w-56" />
 	<div class=" text-black">
-		<h1 class="text-4xl text-center mt-6 md:mt-0 md:text-right">المعهد العالي للدراسات النوعية</h1>
+		<h1 class="text-4xl text-center mt-6 md:mt-0 md:text-right">
+			معهد البطاطس العالي للدراسات النوعية
+		</h1>
 		<div class="flex flex-col justify-center items-center gap-4 md:items-end">
 			<div class="flex justify-center items-center md:justify-end">
 				<span
@@ -23,7 +25,7 @@
 				<p class="pt-3">مصر، الجيزة</p>
 			</div>
 			<div class="flex gap-7">
-				<a href="/sign-in">
+				<a href="/">
 					<Button>صفحة الطالب</Button>
 				</a>
 				<Button>الاتصال بنا</Button>
