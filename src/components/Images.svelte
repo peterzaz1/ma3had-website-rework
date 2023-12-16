@@ -12,11 +12,11 @@
 		<h2 class="text-4xl">صور المعهد</h2>
 	</div>
 	<div class=" grid-cols-1 grid grid-flow-row-dense mx-2 mt-4 gap-5 md:grid-cols-2 lg:grid-cols-3">
-		<img src={pic1} alt="img" class=" w-[80vw] md:w-96 rounded-md drop-shadow-xl shadow-black" />
-		<img src={pic2} alt="img" class=" w-[80vw] md:w-96 rounded-md drop-shadow-xl shadow-black" />
-		<img src={pic3} alt="img" class=" w-[80vw] md:w-96 rounded-md drop-shadow-xl shadow-black" />
-		<img src={pic4} alt="img" class=" w-[80vw] md:w-96 rounded-md drop-shadow-xl shadow-black" />
-		<img src={pic5} alt="img" class=" w-[80vw] md:w-96 rounded-md drop-shadow-xl shadow-black" />
-		<img src={pic6} alt="img" class=" w-[80vw] md:w-96 rounded-md drop-shadow-xl shadow-black" />
+		<img src={pic1} alt="img" class=" w-[80vw] md:w-96 rounded-md drop-shadow-2xl" />
+		<img src={pic2} alt="img" class=" w-[80vw] md:w-96 rounded-md drop-shadow-2xl" />
+		<img src={pic3} alt="img" class=" w-[80vw] md:w-96 rounded-md drop-shadow-2xl" />
+		<img src={pic4} alt="img" class=" w-[80vw] md:w-96 rounded-md drop-shadow-2xl" />
+		<img src={pic5} alt="img" class=" w-[80vw] md:w-96 rounded-md drop-shadow-2xl" />
+		<img src={pic6} alt="img" class=" w-[80vw] md:w-96 rounded-md drop-shadow-2xl" />
 	</div>
 </section>
