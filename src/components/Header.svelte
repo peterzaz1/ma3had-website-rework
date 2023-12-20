@@ -32,7 +32,7 @@
 				<a href="/" class="text-2xl hover:text-gray-400 border-b-2 border-black md:border-0"
 					>الخدمات</a
 				>
-				<a href="/sign-in" class="text-2xl hover:text-gray-400 border-b-2 border-black md:border-0"
+				<a href="/" class="text-2xl hover:text-gray-400 border-b-2 border-black md:border-0"
 					>صفحة الطالب</a
 				>
 				<a href="/" class="text-2xl hover:text-gray-400 border-b-2 border-black md:border-0"
