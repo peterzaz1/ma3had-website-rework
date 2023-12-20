@@ -5,15 +5,15 @@
 	function handleToggle() {
 		if (navList.classList.contains('top-[-100%]')) {
 			navList.classList.remove('top-[-100%]');
-			navList.classList.add('top-[9%]');
+			navList.classList.add('top-[72px]');
 		} else {
-			navList.classList.remove('top-[9%]');
+			navList.classList.remove('top-[72px]');
 			navList.classList.add('top-[-100%]');
 		}
 	}
 </script>
 
-<header class="py-2 bg-[#f1e6ca] shadow-2xl">
+<header class="py-2 bg-[#ddd3b8]">
 	<nav class="flex justify-between w-[92%] m-auto items-center">
 		<div>
 			<a href="/">
@@ -23,7 +23,7 @@
 
 		<div
 			bind:this={navList}
-			class="absolute w-[70%] right-1 top-[-100%] bg-[#f1e6ca] border-2 border-dashed border-black md:static md:border-0 md:h-fit md:w-auto"
+			class="absolute w-full h-full right-0 top-[-100%] bg-[#ddd3b8]/50 backdrop-blur md:static md:border-0 md:h-fit md:w-auto"
 		>
 			<ul class="flex flex-col items-center text-black md:gap-[4vw] md:flex-row gap-10 py-4">
 				<a href="/" class="text-2xl hover:text-gray-400 border-b-2 border-black md:border-0"
