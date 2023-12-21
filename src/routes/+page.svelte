@@ -4,10 +4,11 @@
 	import Hero from '../components/Hero.svelte';
 	import Images from '../components/Images.svelte';
 	import Main from '../components/Main.svelte';
+	import Services from '../components/Services.svelte';
 </script>
 
 <Hero />
 <Main />
 <Images />
 <AboutUs />
-<Footer />
+<Services />
