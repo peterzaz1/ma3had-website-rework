@@ -5,6 +5,7 @@
 	import Images from '../components/Images.svelte';
 	import Main from '../components/Main.svelte';
 	import Services from '../components/Services.svelte';
+	import StickyHeader from '../components/StickyHeader.svelte';
 </script>
 
 <Hero />

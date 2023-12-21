@@ -41,7 +41,7 @@
 			</ul>
 		</div>
 		<div class="flex items-center gap-4">
-			<button class="text-2xl px-2 py-2 bg-[#fb8b24ff] text-white rounded-md hover:bg-[#e36414ff]"
+			<button class="text-2xl px-2 py-2 bg-[#fb8b24ff] text-white rounded-sm hover:bg-[#e36414ff]"
 				>الاتصال بنا</button
 			>
 			<button on:click={handleToggle}
